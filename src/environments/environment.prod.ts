@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  typicode_url: "http://back:3000"
 };

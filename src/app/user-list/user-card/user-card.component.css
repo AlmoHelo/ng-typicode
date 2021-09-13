@@ -1,0 +1,26 @@
+.card {
+    background-color: lightblue;
+    border-radius: 2em;
+    padding: 1em;
+}
+
+.card-header{
+    font-size: larger;
+}
+
+.card-header button{
+    float: right;
+    color: whitesmoke;
+    background-color: lightcoral;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-footer a {
+    background-color: lightskyblue;
+    border-radius: 2em;
+    padding: 0.8em;
+}

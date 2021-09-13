@@ -1,0 +1,7 @@
+<h2>Liste des utilisateurs</h2>
+
+<button routerLink="/users/add">Ajouter un utilisateur</button>
+
+<div class="flex">
+    <app-user-card [user]="user" *ngFor="let user of users" (userDelete)="getUsers()"></app-user-card>
+</div>

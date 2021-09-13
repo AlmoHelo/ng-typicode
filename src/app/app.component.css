@@ -1,0 +1,10 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3vh;
+    margin-bottom: 5vh;
+}
+
+.content{
+    margin: 10vw 10vh;
+}

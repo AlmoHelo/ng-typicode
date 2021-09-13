@@ -1,0 +1,29 @@
+.card {
+    background-color: lightblue;
+    border-radius: 2em;
+    padding: 1em;
+    width: 25em;
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-header{
+    font-size: larger;
+    font-weight: bold;
+}
+.card-body{
+    margin: 1vh 0;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-footer a {
+    background-color: lightskyblue;
+    border-radius: 2em;
+    padding: 0.8em;
+}

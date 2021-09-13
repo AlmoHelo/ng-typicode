@@ -1,0 +1,10 @@
+<div class="card">
+    <div class="card-header">{{post.title}} posté par {{user.name}}</div>
+    <div class="card-body">
+        <p>{{post.body | slice:0:20}}...</p>
+    </div>
+    <div class="card-footer">
+        <a>Envoyer un commentaire</a>
+        <a [href]="'/posts/' + post.id">Détail</a>
+    </div>
+</div>

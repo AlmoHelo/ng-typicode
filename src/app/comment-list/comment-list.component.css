@@ -1,0 +1,10 @@
+h2, div{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+h2{
+    padding-bottom: 2vh;
+    margin-bottom: 4vh;
+    border-bottom: 1px solid lightcyan;
+}

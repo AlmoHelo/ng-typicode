@@ -1,0 +1,21 @@
+.card{
+    color: rgb(34, 30, 30);
+    border-radius: 20px;
+    background-color: lightslategrey;
+    filter: drop-shadow(0 0 0.75rem rgb(65, 77, 88));
+    margin: 2vh 0;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;   
+}
+.card-header{
+    border-bottom: 1px solid lightcyan;
+    font-size: 18px;
+    padding-bottom: 2vh;
+}
+.title{
+    font-size: 20px;
+}
+.body{
+    font-size: 18px;
+}
